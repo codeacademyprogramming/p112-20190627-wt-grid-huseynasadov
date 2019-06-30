@@ -1,454 +1,449 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
+text-align: center;
+font-family: 'Poppins', sans-serif;
 }
 
 a {
-    width: 100%;
-    text-decoration: none;
-    color: rgb(32, 32, 32);
+width: 100%;
+text-decoration: none;
+color: rgb(32, 32, 32);
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    padding: 20px;
+list-style: none;
+display: flex;
+padding: 20px;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+width: 80%;
+margin: 0 auto;
 }
 
 .container-field {
-    padding: 24px 16px;
+padding: 24px 16px;
 }
 
 .button a {
-    padding: 5px 16px;
-    background-color: rgb(255, 253, 253);
-    font-size: 13px;
-    border-radius: 25px;
-    font-weight: 500;
-    transition: 0.9s all;
+padding: 5px 16px;
+background-color: rgb(255, 253, 253);
+font-size: 13px;
+border-radius: 25px;
+font-weight: 500;
+transition: 0.9s all;
 }
 
 .button a:hover {
-    background-color: #e9e7e7;
-    border-radius: 25px;
-    border-color: #d9d9d9;
-    animation-name: border;
-    animation-duration: 1.5s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+background-color: #e9e7e7;
+border-radius: 25px;
+border-color: #d9d9d9;
+animation-name: border;
+animation-duration: 1.5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
 }
 
 @keyframes border {
-    0% {
-        box-shadow: 0 0 0 0px rgba(43, 226, 37, 0.158), 0 0 40px 0 rgba(0, 0, 0, 0.363);
-    }
-    100% {
-        box-shadow: 0 0 0 1em rgba(43, 206, 38, 0), 0 0 40px 0 rgba(0, 0, 0, 0.363);
-    }
+0% {
+    box-shadow: 0 0 0 0px rgba(43, 226, 37, 0.158), 0 0 40px 0 rgba(0, 0, 0, 0.363);
+}
+100% {
+    box-shadow: 0 0 0 1em rgba(43, 206, 38, 0), 0 0 40px 0 rgba(0, 0, 0, 0.363);
+}
 }
 
 /* Header */
 
 nav {
-    background-color: #fac769;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 5;
+background-color: #fac769;
 }
 
 nav div {
-    align-items: center;
+align-items: center;
 }
 
 nav ul li {
-    margin-left: 30px;
+margin-left: 30px;
 }
 
 nav ul li a:hover {
-    color: rgb(99, 95, 107);
+color: rgb(99, 95, 107);
 }
 
 nav .sosial i {
-    color: white;
-    font-size: 15px;
+color: white;
+font-size: 15px;
 }
 
 nav .sosial a {
-    border: 2px solid white;
-    padding: 5px 9px;
-    margin-left: 5px;
-    border-radius: 100%;
+border: 2px solid white;
+padding: 5px 9px;
+margin-left: 5px;
+border-radius: 100%;
 }
 
 nav .sosial a:first-child {
-    padding: 5px 12px;
+padding: 5px 12px;
 }
 
 nav .navigation {
-    width: 100%;
+width: 100%;
 }
 
 /* Section 1 - head */
 
 #head .head-item {
-    width: 100%;
-    height: 100vh;
-    background-image: url("../images/malte-wingen-381988-1920x1280.jpg");
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    text-align: left;
-    color: rgba(0, 0, 0, 0.856);
+width: 100%;
+height: 100vh;
+background-image: url("../images/malte-wingen-381988-1920x1280.jpg");
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+text-align: left;
+color: rgba(0, 0, 0, 0.856);
 }
 
 #head .head-item h1 {
-    font-size: 50px;
-    width: 60%;
-    margin: 5px 0 20px;
-    font-weight: 700;
+font-size: 50px;
+width: 60%;
+margin: 5px 0 20px;
+font-weight: 700;
 }
 
 #head .head-item h3 {
-    text-transform: uppercase;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.856);
+text-transform: uppercase;
+font-size: 16px;
+color: rgba(0, 0, 0, 0.856);
 }
 
 #head .head-item a {
-    margin-left: 10px;
-    padding: 15px 30px;
+margin-left: 10px;
+padding: 15px 30px;
 }
 
 /* Section-2-Findquality */
 
 #findquality {
-    text-align: left;
+text-align: left;
 }
 
 #findquality h3 {
-    font-size: 32px;
-    font-weight: 400;
-    padding-top: 90px;
+font-size: 32px;
+font-weight: 400;
+padding-top: 90px;
 }
 
 #findquality p {
-    font-family: 'Rubik', sans-serif;
-    font-size: 16px;
-    padding: 15px 0 60px;
-    text-indent: 20px;
-    line-height: 1.6;
+font-family: 'Rubik', sans-serif;
+font-size: 16px;
+padding: 15px 0 60px;
+text-indent: 20px;
+line-height: 1.6;
 }
 
 #findquality a {
-    color: slateblue;
+color: slateblue;
 }
 
 #findquality a:hover {
-    color: rgb(97, 95, 110);
+color: rgb(97, 95, 110);
 }
 
 /* Section-3-Download */
 
 #download {
-    background-color: #fac769;
+background-color: #fac769;
 }
 
 #download h2 {
-    font-size: 30px;
-    color: white;
-    padding: 45px 0;
+font-size: 30px;
+color: white;
+padding: 45px 0;
 }
 
 /* Section-4-hotheadphones */
 
 #hotheadphones .hotheadphones-items {
-    padding-top: 90px;
+padding-top: 90px;
 }
 
 #hotheadphones .container {
-    width: 85%;
-    margin: 0 auto;
+width: 85%;
+margin: 0 auto;
 }
 
 #hotheadphones h2 {
-    font-size: 32px;
-    text-align: left;
-    font-weight: 400;
-    padding-left: 15px;
+font-size: 32px;
+text-align: left;
+font-weight: 400;
+padding-left: 15px;
 }
 
 #hotheadphones img {
-    width: 100%;
-    height: 100%;
+width: 100%;
+height: 100%;
 }
 
 #hotheadphones .container-field .col-12 {
-    position: relative;
+position: relative;
 }
 
 #hotheadphones .container-field .col-12 div {
-    position: absolute;
-    top: 30px;
-    left: 25px;
+position: absolute;
+top: 30px;
+left: 25px;
 }
 
-#hotheadphones .container-field a {
-    font-size: 13px;
-    text-transform: uppercase;
-    padding: 10px;
-    background-color: #fac769;
-    border-radius: 100px;
+#hotheadphones .container-field span {
+font-size: 13px;
+text-transform: uppercase;
+padding: 10px;
+background-color: #fac769;
+border-radius: 100px;
 }
 
 #hotheadphones .headphones-read {
-    background-color: #fac769;
-    text-align: left;
-    height: 36vh;
+background-color: #fac769;
+text-align: left;
+height: 36vh;
 }
 
 #hotheadphones .headphones-read .col-12 {
-    padding: 24px;
+padding: 24px;
 }
 
 #hotheadphones .headphones-read p {
-    font-family: 'Rubik', sans-serif;
-    color: white;
-    font-size: 16px;
-    line-height: 24px;
+font-family: 'Rubik', sans-serif;
+color: white;
+font-size: 16px;
+line-height: 24px;
 }
 
 #hotheadphones .headphones-read h4 {
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 5px;
+font-size: 16px;
+font-weight: 700;
+margin-bottom: 5px;
 }
 
 /* section-5-newheadphones */
 
 #newheadphones .container {
-    width: 83%;
-    margin: 0 auto;
+width: 83%;
+margin: 0 auto;
 }
 
 #newheadphones .newheadphones-items {
-    padding: 90px 0;
-    text-align: left;
+padding: 90px 0;
+text-align: left;
 }
 
 #newheadphones .newheadphones-items .row {
-    flex-wrap: wrap;
+flex-wrap: wrap;
 }
 
 #newheadphones .newheadphones-items h2 {
-    font-size: 32px;
-    font-weight: 400;
-    padding-bottom: 24px;
+font-size: 32px;
+font-weight: 400;
+padding-bottom: 24px;
 }
 
 #newheadphones .newheadphones-items img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+height: 100%;
+width: 100%;
+object-fit: cover;
 }
 
 #newheadphones .newheadphones-container {
-    position: relative;
+position: relative;
 }
 
 #newheadphones .col-3 {
-    padding: 8px 8px 1px;
+padding: 8px 8px 1px;
 }
 
 #newheadphones a {
-    height: 100%;
-    ;
+height: 100%;
+;
 }
 
 #newheadphones .newheadphones-container div {
-    background-color: #59585da1;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    height: 96%;
-    width: 100%;
-    opacity: 0;
-    transition: .3s ease;
+background-color: #59585da1;
+position: absolute;
+top: 0px;
+bottom: 0px;
+left: 0px;
+right: 0px;
+height: 96%;
+width: 100%;
+opacity: 0;
+transition: .3s ease;
 }
 
 #newheadphones .newheadphones-container div span {
-    padding: 0px 17px;
-    font-size: 38px;
-    font-weight: 100;
-    color: white;
-    background-color: #444444;
-    border-radius: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+padding: 0px 17px;
+font-size: 38px;
+font-weight: 100;
+color: white;
+background-color: #444444;
+border-radius: 100%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 #newheadphones .newheadphones-container div h6 {
-    color: white;
-    font-size: 16px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 700;
-    position: absolute;
-    bottom: 20px;
-    left: 15px;
+color: white;
+font-size: 16px;
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+position: absolute;
+bottom: 20px;
+left: 15px;
 }
 
 #newheadphones .newheadphones-container:hover div {
-    opacity: 1;
+opacity: 1;
 }
 
 /* section-6-Like it */
 
 #likeit {
-    background-color: #fac769;
-    color: white;
-    text-align: left;
+background-color: #fac769;
+color: white;
+text-align: left;
 }
 
 #likeit .row {
-    padding: 30px 0;
-    justify-content: space-around;
-    align-items: center;
+padding: 30px 0;
+justify-content: space-around;
+align-items: center;
 }
 
 #likeit h4 {
-    font-size: 16px;
-    font-weight: 300;
-    padding-bottom: 16px;
+font-size: 16px;
+font-weight: 300;
+padding-bottom: 16px;
 }
 
 #likeit h2 {
-    font-size: 32px;
-    font-weight: 700;
+font-size: 32px;
+font-weight: 700;
 }
 
 #likeit a {
-    font-size: 13px;
-    padding: 12px 24px;
+font-size: 13px;
+padding: 12px 24px;
 }
 
 /* section-7-info */
 
 #info .container {
-    width: 85%;
-    padding: 90px 0 30px;
+width: 85%;
+padding: 90px 0 30px;
 }
 
 #info .container h2 {
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 16px;
+font-size: 32px;
+font-weight: 400;
+margin-bottom: 16px;
 }
 
 #info .container-field {
-    padding: 16px;
-    text-align: left;
-    position: relative;
+padding: 16px;
+text-align: left;
+position: relative;
 }
 
 #info p {
-    color: #767676;
-    font-size: 16px;
-    margin-top: 26px;
-    line-height: 1.5;
+color: #767676;
+font-size: 16px;
+margin-top: 26px;
+line-height: 1.5;
 }
 
 #info h5 {
-    font-size: 16px;
-    font-weight: 700;
+font-size: 16px;
+font-weight: 700;
 }
 
 #info a {
-    color: #fac769;
+color: #fac769;
 }
 
 #info span {
-    color: #fac769;
-    font-weight: 700;
-    font-size: 64px;
-    position: absolute;
-    top: -20px;
-    ;
-    left: 15px;
-    z-index: -1;
+color: #fac769;
+font-weight: 700;
+font-size: 64px;
+position: absolute;
+top: -20px;
+;
+left: 15px;
+z-index: -1;
 }
 
 /* Section-8-map */
 
 #map h3 {
-    font-size: 16px;
-    font-weight: 700;
-    color: #767676;
+font-size: 16px;
+font-weight: 700;
+color: #767676;
 }
 
 #map h2 {
-    font-size: 32px;
-    font-weight: 700;
-    padding-bottom: 40px;
+font-size: 32px;
+font-weight: 700;
+padding-bottom: 40px;
 }
 
 #map .map-items {
-    height: 100%;
-    width: 100%;
+height: 100%;
+width: 100%;
 }
 
 #map .map-items iframe {
-    height: 400px;
-    width: 100%;
-    ;
-    margin-bottom: 40px;
+height: 400px;
+width: 100%;
+;
+margin-bottom: 40px;
 }
 
 /* footer */
 
 footer .container {
-    padding: 40px 0;
-    align-items: center;
-    justify-content: space-between;
+padding: 40px 0;
+align-items: center;
+justify-content: space-between;
 }
 
 footer img {
-    width: 90px;
+width: 90px;
 }
 
 footer p {
-    color: rgba(0, 0, 0, 0.486);
+color: rgba(0, 0, 0, 0.486);
 }
 
 footer .footer-icons a i {
-    color: white;
-    width: 40px;
-    padding: 12.8px 12.8px;
-    margin-left: 8px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: #fac769;
-    transition: 0.5s all;
-    font-size: 14px;
+color: white;
+width: 40px;
+padding: 12.8px 12.8px;
+margin-left: 8px;
+height: 40px;
+width: 40px;
+border-radius: 50%;
+background-color: #fac769;
+transition: 0.5s all;
+font-size: 14px;
 }
 
 footer .footer-icons a:hover i {
-    background-color: #f3a20d65;
+background-color: #f3a20d65;
 }
