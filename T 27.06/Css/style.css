@@ -112,7 +112,7 @@ color: rgba(0, 0, 0, 0.856);
 
 #head .head-item h1 {
 font-size: 50px;
-width: 60%;
+width: 50%;
 margin: 5px 0 20px;
 font-weight: 700;
 }
@@ -280,7 +280,7 @@ top: 0px;
 bottom: 0px;
 left: 0px;
 right: 0px;
-height: 96%;
+height: 97%;
 width: 100%;
 opacity: 0;
 transition: .3s ease;
